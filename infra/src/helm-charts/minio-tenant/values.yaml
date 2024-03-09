@@ -37,7 +37,8 @@ tenant:
       ## volumesPerServer specifies the number of volumes attached per MinIO Tenant Pod / Server.
       volumesPerServer: 2
       ## size specifies the capacity per volume
-      size: 100Gi
+      ##size: 100Gi
+      size: 3Gi
       ## storageClass specifies the storage class name to be used for this pool
       storageClassName: default
       ## Used to specify annotations for pods
@@ -116,7 +117,6 @@ tenant:
     - name: landing
     - name: metastore
     - name: trino
-    - name: owshq
   ## List of secret names to use for generating MinIO users during tenant provisioning
   users: [ ]
   ## PodManagement policy for MinIO Tenant Pods. Can be "OrderedReady" or "Parallel"
