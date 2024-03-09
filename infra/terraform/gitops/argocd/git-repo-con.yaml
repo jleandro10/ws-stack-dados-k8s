@@ -6,6 +6,6 @@ metadata:
   labels:
     argocd.argoproj.io/secret-type: repository
 stringData:
-  url: https://jleandro10@github.com/ws-stack-dados-k8s
+  url: https://jleandro10@github.com/ws-stack-dados-k8s.git
   password: ${PASSWORD}
   username: not-used
