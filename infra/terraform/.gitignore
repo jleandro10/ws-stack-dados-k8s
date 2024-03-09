@@ -1,0 +1,4 @@
+terraform/kubernetes/gcp/.terraform
+terraform/kubernetes/gcp/.terraform.lock.hcl
+terraform/kubernetes/gcp/terraform.tfstate
+terraform/kubernetes/gcp/terraform.tfstate.backup
