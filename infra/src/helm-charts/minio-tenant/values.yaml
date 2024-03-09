@@ -40,7 +40,8 @@ tenant:
       ##size: 100Gi
       size: 3Gi
       ## storageClass specifies the storage class name to be used for this pool
-      storageClassName: default
+      ##storageClassName: default
+      storageClassName: standard-rwo
       ## Used to specify annotations for pods
       annotations: { }
       ## Used to specify labels for pods
