@@ -13,7 +13,7 @@ spec:
       valueFiles:
         - values.yaml
   destination:
-    name: 'gke_tcb-gcp-aws-414314_us-west1-a_dev-test'
+    name: 'gke_stack-moderna-k8s_us-west1-a_dev-test'
     namespace: metastore
     server: ''
   syncPolicy:
